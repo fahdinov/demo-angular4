@@ -9,7 +9,7 @@ import {Hero} from '../hero-model/Hero';
 @Component({
   selector: 'hero-list',
   templateUrl: './heroes.html',
-  styleUrls: ['../../app.component.css'],
+  styleUrls: ['../../../app.component.css'],
   providers:[HeroService]
 })
 export class HeroListeComponent implements OnInit {

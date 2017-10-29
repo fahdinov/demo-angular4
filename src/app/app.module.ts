@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule }   from '@angular/forms'; // <-- NgModel lives here
-import { HeroModule } from './hero/hero-module';
+import { HeroModule } from './tp-sample/hero/hero-module';
 import { AppComponent } from './app.component';
 import { RouterModule }   from '@angular/router';
 import { CalendarModule } from 'angular-calendar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SampleNewsComponent } from './tp-sample/sample-news/sample-news/sample-news.component';
+import { SampleNewsComponent } from './tp-sample/sample-news/sample-news.component';
 
 
 @NgModule({

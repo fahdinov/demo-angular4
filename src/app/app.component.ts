@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HeroService } from './hero/hero-service/hero.service';
+import { HeroService } from './tp-sample/hero/hero-service/hero.service';
 import { OnInit } from '@angular/core';
 import { CalendarEvent } from 'angular-calendar';
 
