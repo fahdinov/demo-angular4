@@ -7,6 +7,7 @@ import { RouterModule }   from '@angular/router';
 import { CalendarModule } from 'angular-calendar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SampleNewsComponent } from './tp-sample/sample-news/sample-news.component';
+import { NewsModule } from './tp-sample/news/news.module';
 
 
 @NgModule({
@@ -19,8 +20,7 @@ import { SampleNewsComponent } from './tp-sample/sample-news/sample-news.compone
     FormsModule, // <-- import the FormsModule before binding with [(ngModel)]
   	HeroModule,
     RouterModule,
-    BrowserAnimationsModule,
-    CalendarModule.forRoot()
+    NewsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

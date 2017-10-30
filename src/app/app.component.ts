@@ -8,20 +8,11 @@ import { CalendarEvent } from 'angular-calendar';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css', '../../node_modules/angular-calendar/dist/css/angular-calendar.css'
-],
+  styleUrls: ['./app.component.css', '../../node_modules/angular-calendar/dist/css/angular-calendar.css'],
   providers: [HeroService]
 })
 export class AppComponent {
-  title = 'Tour of Heroes';
-  startDate = new Date();
-  view: string = 'month';
-  
-    viewDate: Date = new Date();
-  
-    events: CalendarEvent[] = [];
-  
-    clickedDate: Date;
+  title = 'Trade Portal';
 }
 export class Hero {
   id: number;
