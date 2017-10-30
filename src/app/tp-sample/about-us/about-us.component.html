@@ -1,0 +1,11 @@
+
+<h2 style="text-align: center">The content configured in the back-office: </h2>
+<div style="text-align: center">
+  <button style="background-color: lightsteelblue">About us</button>
+  <button style="background-color: lightsteelblue">News</button>
+</div>
+<div style="margin: 10%"  *ngFor="let article of articles">
+  <h1 style="background-color: lightsteelblue" [innerHTML]="article.title">
+  </h1>
+  <p  [innerHTML]="article.body"></p>
+</div>
