@@ -1,0 +1,7 @@
+.block-news {
+    display: block;
+    position: relative;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
